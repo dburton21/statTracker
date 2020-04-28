@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    print("It opened...")
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +22,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func assistButton(_ sender: Any) {
+        print("It did load.")
+    }
 }
 
