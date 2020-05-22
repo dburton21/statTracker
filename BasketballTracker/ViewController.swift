@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     let david  = player(assists: 0, steals: 0, turnovers: 0, rebounds: 0, charges: 0, numerator: 0, denominator: 0, shotPercentage: 0)
     let teddy = player(assists: 0, steals: 0, turnovers: 0, rebounds: 0, charges: 0, numerator: 0, denominator: 0, shotPercentage: 0)
     
-    
+    //teddy here
     override func viewDidLoad() {
         super.viewDidLoad()
         //        circularButton?.mybg(_bg:.red)
